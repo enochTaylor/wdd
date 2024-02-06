@@ -1,5 +1,7 @@
 body {
     background-color: lightblue;
+    margin: 0;
+    padding: 0;
 }
 
 .nav_link {
@@ -8,6 +10,37 @@ body {
     font-size: 1.3em;
 }
 
+p {
+    text-align: center;
+}
+header, footer {
+    background-color: rgb(176, 155, 196);
+}
+
 #main_title {
     color: rgb(37, 6, 109);
+    font-size: 3em;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center
+}
+nav a:hover {
+    color: aliceblue;
+}
+img {
+    display:block;
+    margin: 0 auto;
+}
+img {
+    width: 60%;
+}
+
+#content {
+max-width: 1000;
+margin 0 auto;
+}
+footer {
+    padding: 20px
 }
