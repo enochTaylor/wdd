@@ -54,7 +54,9 @@ h4{
     color: #586F7C;
 }
 
-
+#test a{
+    padding: 30px;
+}
 
 
 
@@ -102,11 +104,11 @@ nav a:hover{
     background-color: black;
     padding: 35px;
 }
-.msg h2{
-    color: black;
+.msg h3{
+    color: beige;
 }
 .msg p{
-    color: black;
+    color: beige;
     padding-bottom: 15px;
 }
 footer{
@@ -165,4 +167,11 @@ footer .social img{
 }
 main section img {
     box-sizing: border-box;
+}
+
+.button-box2{
+    text-align: center;
+    font-size: 2em;
+    font-family:'Anton', Arial, sans-serif ;
+    padding: 10px;
 }
