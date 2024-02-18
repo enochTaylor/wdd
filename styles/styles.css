@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital@1&family=Oswald&family=Raleway&display=swap');
 
 body {
-    background-color: lightblue;
+    background-color: rgb(27, 26, 26);
     margin: 0;
     padding: 0;
 }
@@ -18,13 +18,14 @@ p {
     margin: 0 auto;
     font-family: 'Figtree';
     padding: 10px;
+    color: white;
 }
 header, footer {
-    background-color: rgb(176, 155, 196);
+    background-color: gray;
 }
 
 #main_title {
-    color: rgb(37, 6, 109);
+    color: rgb(228, 225, 235);
     font-size: 3em;
     text-align: center;
     font-family: 'Figtree';
@@ -52,4 +53,7 @@ footer {
 
 header a{
     text-decoration: none;
+}
+img {
+    border-radius: 10px;
 }
