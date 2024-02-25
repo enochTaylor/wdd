@@ -1,44 +1,12 @@
 body {
-    background-color:#5CA1D7;
-}
-h1 {
-    text-align: center;
-    font-size: 6ex;
-    color: white;
-}
-
-h2 {
-    text-align: center;
-    font-size: 1.8ex;
-    color: white;
-}
-
-h3 {
-    text-align: center;
-    color: white;
-    font-size: 1em;
+    display: grid;
+    grid-template-columns: 100px, 100px;
     
 }
-.list {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    font-weight: bolder;
-}
-
 img {
-    display:block;
-    margin: 0 auto;
-    width: 20%;
+    size: 100px;
+    grid-column: 1/2;
 }
- 
-.facts {
-    text-align: center;
-    font-size: 1.8em;
-    color: white;
-}
-footer {
-    text-align: center;
-    font-size: .8em;
-    font-weight: bold;
+.hero{
+    font-size: 2em;
 }
