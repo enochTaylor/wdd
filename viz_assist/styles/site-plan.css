@@ -5,11 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #DDE7C7   ;
-  --secondary-color: #BFD8BD ;
-  --accent1-color: #98C9A3;
-  --accent2-color: #77BFA3;
-
+  --primary-color: #170f11   ;
+  --secondary-color: #402039 ;
+  --accent1-color: #5c164e;
+  --accent2-color: #9b287b;
+/*  my last color is #e2fcef  (Honeydew/ lighter peachish color) */
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
