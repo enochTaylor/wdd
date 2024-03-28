@@ -30,6 +30,10 @@ nav a {
     width: 500px;
     margin: -175px;
     padding-top: 35px;
+
+}
+#logo_link{
+    z-index: 2;
 }
 
 /* Body */
@@ -43,8 +47,11 @@ body {
 /* Hero image */
 #hero-img {
     width: 100%;
+    margin-top: -235px;
 }
-
+#hero-box{
+    z-index: -3;
+}
 /* Hero section */
 #hero {
     display: grid;
@@ -54,7 +61,7 @@ body {
 
 /* Header */
 header {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     padding: 20px;
     text-align: center;
     color: #ffffff;
@@ -154,7 +161,7 @@ nav {
     text-align: center;
 }
 
-/* Hero image */
+/* Hero image2 */
 #hero-img2 {
     width:  100%;
 }
